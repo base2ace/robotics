@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="src/images/Logo/b2a_logo.png">
+  <title> Base2Ace Academy - ICSE</title>
+  <link rel="stylesheet" href="src/styles/designSystem.css">
+  <link rel="stylesheet" href="src/styles/index.css">
+</head>
+
+<body class="body__index">
+  <nav class="hero">
+    <div class="navbar container">
+      <div class="navbar__logo">
+        <img src="src/images/Logo/b2a_logo_white.png" width="50" height="50" alt="" class="navbar__logo--image"></img>
+        <div class="navbar__logo--text">Base2Ace Academy</div>
+      </div>
+      <div class="navbar__menu hidden">
+        <a href="index.html" class="navbar__menu--1">Home</a>
+        <a href="courses.html"  target="_blank" class="navbar__menu--2">Course</a>
+        <a href="./programs/AllPrograms.html"  target="_blank" class="navbar__menu--3">Programs</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScNHsZOApgSz2MQ1JQEpjORMC9wlRosrxJRGcqW9smfDr6BSg/viewform" target="_blank" class="navbar__menu--4">Contact</a>
+      </div>
+      <div class="navbar__icon">
+        <i class="bi bi-list"></i>
+        <i class="bi bi-x-lg hide"></i>
+      </div>
+    </div>
+
+    <header class="header grid container">
+	
+	  <script>
+        function openSyllabusPage() {
+            <!-- window.open("https://cisce.org/regulations-and-syllabuses-2025/", "_blank"); -->
+            window.open("https://cisce.org/wp-content/uploads/2024/01/21.-ICSE-Computer-Applications_25.pdf", "_blank");
+        }
+		function open_b2a_dot_comPage() {
+            window.open("https://base2ace.com", "_blank");
+        }
+        function course_explore() {
+			window.open("courses.html", "_blank");
+            <!-- window.location.href = 'course_explore.html';  -->
+        }
+        function Register() {
+			window.open("https://docs.google.com/forms/d/e/1FAIpQLScNHsZOApgSz2MQ1JQEpjORMC9wlRosrxJRGcqW9smfDr6BSg/viewform", "_blank");
+        }		
+		function openAllProgramsPage() {
+			window.open("./programs/AllPrograms.html", "_blank");
+		}
+		function openQuestionPapersPage() {
+			window.open("./question_papers.html", "_blank");
+		}
+		function openMockPapersPage() {
+			window.open("./programs/question_papers.html", "_blank");
+		}
+		
+		</script>
+		
+	
+      <div class="header__left flex">
+        <div class="header__left--title common-title text-white">Comprehensive Robotics Course for Kids.</div>
+        <div class="header__left--text">Specifically designed for students to intorduce then to the world of Robotics. Course covers the hands on projects for students to create their own prototypes and fully working robots. Get future ready!</div>
+        <button class="header__left--btn white-btn"  onclick="RegisteRoboticsr()">Register Now.</button>
+      </div>
+      <img src="src/images/Home/image-1.svg" alt="" class="header__right responsive-image">
+    </header>
+  </nav>
+  
+
+
+    <section class="sectionOne container">
+    <div class="sectionOne__content text-center ">
+      <button class="sectionOne__btn dark-btn" onclick="openSyllabusPage()">Based on Latest Arduino Version.</button>
+	  <!-- <button class="section__center--btn dark-btn">Solutions to last 5 years papers.</button> -->
+      <!-- <div class="sectionOne__content__wws--text" >Get 2 Mock Papers for practice.</div> -->
+    </div>
+    
+  </section>
+  
+  
+  
+    
+  <section class="sectionTwo container grid">
+    <img src="src/images/Home/image-2.svg" alt="" class="sectionTwo responsive-image">
+    <div class="sectionTwo__right flex">
+      <div class="sectionTwo__right--title common-title">In depth discussion on each concept.</div>
+      <div class="sectionTwo__right--text ">Thorough Exploration: Dive Deep into Each Concept with Clear, Detailed Discussions. Gain a Complete Understanding and Master the Key Ideas with Engaging, Easy-to-Follow Explanations.</div>
+      <button class="sectionTwo__right--btn dark-btn" onclick="course_explore()">Course Details</button>
+    </div>
+  </section>
+  
+  
+  <section class="sectionThree container grid">
+    <div class="sectionThree__left flex">
+      <div class="sectionThree__left--title common-title">Focus on practical hands on programming.</div>
+      <div class="sectionThree__left--text ">With programming making up 60% of the paper, we ensure every child grasps the concepts and can confidently write their own programs.</div>
+      <button class="sectionThree__left--btn dark-btn" onclick="openAllProgramsPage()">Check Programs</button>
+    </div>
+    <img src="src/images/Home/image-3.svg" alt="" class="sectionthree__right responsive-image">
+  </section>
+  
+  <hr>
+    <section class="sectionOne container">
+    <div class="sectionOne__content text-center flex">
+	  <button class="section__center--btn dark-btn" onclick="openQuestionPapersPage()">Last 5 years Papers with Solutions</button>
+	  <button class="section__center--btn dark-btn" onclick="openQuestionPapersPage()">2 AI generated Mock Papers.</button>
+      <!-- <div class="sectionOne__content__wws--text" >Get 2 Mock Papers for practice.</div> -->
+    </div>
+  </section>
+  
+  <!-- <section class="sectionFour container"> -->
+    <!-- <div class="sectionFour__content text-center"> -->
+      <!-- <div class="secttionFour__content--label label text-green">Other Courses by Base2Ace Academy</div> -->
+      <!-- <div class="secttionFour__content--title common-title">Courses</div> -->
+      <!-- <div class="secttionFour__content--text">Other Courses in the series by Base2Ace Academy.</div> -->
+    <!-- </div> -->
+    <!-- <div class="sectionFour__cards "> -->
+      <!-- <div class="sectionFour__cards--1"> -->
+        <!-- <img src="src/images/courses/python.svg" alt="" class="responsive-image"> -->
+        <!-- <div class="name">Python Begninners</div> -->
+        <!-- <div class="position">3 Months</div> -->
+      <!-- </div> -->
+      <!-- <div class="sectionFour__cards--2">   -->
+        <!-- <img src="src/images/courses/python_adv.svg" alt="" class="responsive-image"> -->
+        <!-- <div class="name">Python Advanced</div> -->
+        <!-- <div class="position">3 Months</div> -->
+      <!-- </div> -->
+      <!-- <div class="sectionFour__cards--3"> -->
+        <!-- <img src="src/images/courses/arduino.svg" alt="" class="responsive-image"> -->
+        <!-- <div class="name">Arduino Begninners</div> -->
+        <!-- <div class="position">3 Months</div> -->
+      <!-- </div> -->
+	  <!-- <div class="sectionFour__cards--4"> -->
+        <!-- <img src="src/images/courses/abacus.png" alt="" class="responsive-image"> -->
+        <!-- <div class="name">Abacus</div> -->
+        <!-- <div class="position">10 Levels</div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+    <!-- <button class="sectionFour__btn dark-btn" onclick="open_b2a_dot_comPage()">Learn More</button> -->
+  <!-- </section> -->
+  
+  
+  <footer class="footerWrapper">
+    <div class="footerLinks container">
+      <!-- <div class="footerLinks__socials"> -->
+        <!-- <img src="src/images/socials/facebook.svg" alt=""> -->
+        <!-- <img src="src/images/socials/instagram.svg" alt=""> -->
+        <!-- <img src="src/images/socials/twitter.svg" alt=""> -->
+        <!-- <img src="src/images/socials/tiktok.svg" alt=""> -->
+        <!-- <img src="src/images/socials/pinterest.svg" alt=""> -->
+        <!-- <img src="src/images/socials/whatsapp.svg" alt=""> -->
+        <!-- <img src="src/images/socials/youtube.svg" alt=""> -->
+      <!-- </div> -->
+      <div class="footerLinks__copyright text-white text-center">© Base2Ace Academy. An ISO 9001:2015 Certified Company.</div>
+    </div>
+  </footer>
+</body>
+<script src="src/main.js"></script>
+
+</html>
